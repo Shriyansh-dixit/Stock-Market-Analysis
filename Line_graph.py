@@ -5,10 +5,10 @@ import pandas as pd
 def fetch_stock_data(symbol="AAPL"):
     # Connect to MySQL database
     conn = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="Krishna024504",
-        database="stock_markett"
+        host="",
+        user="",
+        password="",
+        database=""
     )
     cursor = conn.cursor()
     
