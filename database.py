@@ -3,13 +3,13 @@ import time
 import finnhub
 
 conn = mysql.connector.connect(
-    host="localhost",  # Replace with your MySQL server IP
-    user="root",  # Replace with your MySQL username
-    password="Krishna024504@",  # Replace with your MySQL password
-    database="Stock_markett"
+    host="",  # Replace with your MySQL server IP
+    user="",  # Replace with your MySQL username
+    password="",  # Replace with your MySQL password
+    database=""
 )
 cursor = conn.cursor()
-finnhub_client = finnhub.Client(api_key="cuae4epr01qof06iao6gcuae4epr01qof06iao70")
+finnhub_client = finnhub.Client(api_key="")
 
 def update_stock_data(symbol):
     """Fetch stock data from Finnhub and insert into MySQL"""
