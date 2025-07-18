@@ -2,7 +2,7 @@ import finnhub as fh
 import websocket
 import time
 
-Client = fh.Client(api_key="cuae4epr01qof06iao6gcuae4epr01qof06iao70")
+Client = fh.Client(api_key="")
 
 def on_message(ws, message):
     print(message)
